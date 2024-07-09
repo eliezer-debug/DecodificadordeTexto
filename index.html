@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador de Texto</title>
+    <link rel="stylesheet" href="./app.css">
+</head>
+<body>
+    <div class="main">
+        <div class='header'>
+            <img src="./img/alura loggo.png">
+        </div>
+        <div class="content">
+            <div class="interacao">
+                <textarea name="entrada" placeholder="Digite seu texto" id="entrada"></textarea>
+
+                <p class="aviso"><i class="fa-solid fa-circle-info"></i> Apenas letras minúsculas e sem acento</p>
+                <div class="grupo-botao">
+                    <button class="btn crip" id="crip">Criptografar</button>
+                    <button class="btn descrip" id="descrip">Descriptografar</button>
+                </div>
+            </div>
+            <div class="aside">
+                <div class="msg-group">
+                    <div class="msg-vazia"> 
+                       <img src="./img/image.png">
+                        <h2>Nenhuma mensagem encontrada</h2>
+                        <p>Digite um texto que você deseja criptografar ou descriptografar.</p></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://kit.fontawesome.com/77efc23113.js" crossorigin="anonymous"></script>
+    <script src="./app.js"></script>
+</body>
+</html>
