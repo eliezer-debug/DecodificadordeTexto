@@ -1,0 +1,155 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter';
+}
+
+body {
+    background-color: #F3F5FC;
+}
+
+.header{
+    width: 100%;
+}
+
+.header img{
+    width: 10%;
+    padding: 25px;
+}
+
+.content{
+    flex: content;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.interacao{
+    padding: 25px;
+    padding-left: 10%;
+    flex: 1 1 700px;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+.aside{
+    flex: 1 1 400px;
+    min-height: 300px;
+    padding: 30px;
+    box-sizing: border-box;
+    width: 400px;
+}
+
+.msg-group{
+    background-color: #fff;
+    border-radius: 25px;
+    height: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+    display: flex;
+    
+}
+
+#entrada{
+    border: none;
+    font-family: "Inter", sans-serif;
+    font-size: 22pt;
+    color: blue;
+    width: 100%;
+    overflow: visible;
+    outline: none;
+    resize: none;
+    height: 60vh;
+    background-color: #F3F5FC;
+}
+
+#entrada::placeholder{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22pt;
+    color: blue;
+}
+
+#entrada:focus{
+    border: none;
+}
+
+.aviso{
+    color: #495057;
+    size: 16pt;
+}
+
+.btn {
+    border-radius: 20px;
+    padding: 15px;
+    border: 0;
+    width: 300px;
+    margin: 10px;
+
+}
+
+.crip{
+    background-color: #0A3871;
+    color: #fff;
+}
+
+.crip:hover{
+    background-color: #052e5f;
+    color: #fff;
+    cursor: pointer;
+}
+
+.descrip{
+    border: 2px solid #0A3871;
+}
+
+.descrip:hover{
+    background-color: #c0c0c0;
+    cursor: pointer;
+}
+
+.msg-group{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    justify-content: center;
+}
+.msg-group div{
+    padding: 25px;
+    box-sizing: border-box;
+    text-align: center;
+    color: #343A40;
+}
+
+.msg-group div button{
+    border: none;
+    color: #0A3871;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 24px;
+    border: 1px solid #0A3871;
+    padding: 15px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 10px;
+    background-color: #fff;
+}
+
+#copiar:hover{
+    background-color: #c0c0c0;
+    cursor: pointer;
+}
+
+@media (max-width:1099px) {
+    .msg-group img{
+        display: none;
+    }
+}
